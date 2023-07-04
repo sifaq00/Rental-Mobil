@@ -1,0 +1,364 @@
+body {
+  background-color: #F9F9F9;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  background-color: #F9F9F9;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #E57C23;
+  box-shadow: 0 0 5px rgba(229, 124, 35, 0.5);
+}
+
+.btn-primary {
+  background-color: #E57C23;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #D36E1F;
+}
+
+.btn-danger {
+  background-color: #CD1818;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-success {
+  background-color: #22A699;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+
+/* Custom styles for the navbar */
+.navbar {
+  background-color: #025464 !important;
+  /* Background color */
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color:  #E57C23;
+  font-weight: bold;
+}
+
+
+
+.navbar-brand {
+  color: #ffffff;
+  /* Text color */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  /* Text color */
+  font-weight: 500;
+}
+
+.navbar .btn {
+  color: #E57C23;
+  border-color: #E57C23;
+
+}
+
+.nav-link:hover {
+  color: #E57C23;
+}
+
+.nav-item .active {
+  color: #E57C23;
+  font-weight: bold;
+}
+
+/* Jumbotron */
+
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://localhost/project-rental-mobil/app/img/assets/jumbotron.png');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 750px;
+}
+
+
+
+.jumbotron h1 {
+  color: #F5F5F5;
+  font-family: inter;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 250px;
+}
+
+.reason {
+  margin-top: -80px;
+  height: 490px;
+}
+
+#reason .card-body {
+  height: 490px;
+}
+
+/* About */
+
+.about {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about .card {
+  background-color: transparent;
+  border: 2px solid #E8AA42;
+}
+
+.about .card-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about .card-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.team-member {
+  background-color: #f8f8f8 !important;
+  padding: 15px !important;
+  margin-bottom: 30px !important;
+  transition: background-color 0.3s ease !important;
+  -webkit-transition: background-color 0.3s ease !important;
+  -moz-transition: background-color 0.3s ease !important;
+  -ms-transition: background-color 0.3s ease !important;
+  -o-transition: background-color 0.3s ease !important;
+}
+
+.team-member:hover {
+  background-color: #e9e9e9 !important;
+}
+
+.team-member-img {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  margin-bottom: 15px !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+}
+
+.team-member h4 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.team-member p {
+  font-size: 16px !important;
+  color: #888 !important;
+}
+
+/* Car-Collection */
+.car-collection {
+  padding-bottom: 100px;
+}
+
+/* Footer */
+/* Assuming this is your existing CSS code */
+.footer {
+  background-color: #025464;
+  padding: 20px 0;
+  color: #ffff;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+}
+
+.footer .col-lg-4 {
+  display: flex;
+  align-items: center;
+}
+
+.footer .col-lg-8 {
+  display: flex;
+  align-items: center;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+/* Added CSS for positioning the footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.copyright {
+  background-color: #E8AA42;
+  padding-top: 10px;
+  color: #ffff;
+}
+
+
+
+/* Admin Dashboard */
+.admin-dashboard .card {
+  margin-top: 100px;
+  margin-bottom: 205px;
+}
+
+/* User */
+.riwayat-transaksi {
+  margin-top: 100px;
+  margin-bottom: 165px;
+}
+
+
+/* Daftar Mobil */
+
+.btn-booking {
+  background-color: #025464;
+}
+
+.btn-booking:hover {
+  background-color: #E8AA42;
+}
+
+
+
+.foto-mobil {
+  height: 200px;
+  /* Atur tinggi foto sesuai kebutuhan */
+}
+
+/* Riwayat */
+.table {
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #025464;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.table td {
+  border: none;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+/* Daftar Mobil */
+.car-collection {
+  background-color: #F5F5F5;
+  padding: 50px 0;
+}
+
+.car-collection h2 {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;;
+}
+
+.car-collection .row {
+  margin: 0 -15px;
+}
+
+.car-collection .card {
+  background-color: #FFF;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.car-collection .card-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.car-collection .card-text {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.car-collection .btn-primary{
+  margin-top: 20px;
+  background-color: #025464 !important;
+  border-color: #025464 !important;
+  color: #FFF;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.car-collection .btn-primary:hover {
+  background-color: #FFA366 !important;
+  border-color: #FFA366 !important;
+}
